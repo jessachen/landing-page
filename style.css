@@ -3,6 +3,7 @@ font-family:'Helvetica', 'Arial', sans-serif
 }
 .hero {
     background-color: #fcf4cf;
+    padding-bottom: 150px;
 }
 
 .hero-top {
@@ -19,7 +20,7 @@ font-family:'Helvetica', 'Arial', sans-serif
 
 .logo {
     width: 50px;
-    padding: 0px 0px 0px 16px;
+    padding: 0px 0px 0px 0px;
     flex-shrink: 0;
 }
 
@@ -50,18 +51,31 @@ a {
     color: #181818;
 }
 
+.hero-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 16px;
+    margin-top: 50px;
+}
+
+.hero .left {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    width: 500px;
+}
+
 .hero-title {
     font-size: 48px;
     font-weight: bold;
-}
-
-.hero-bottom {
-    display: flex;
+    margin: 16px;
 }
 
 .subtext {
     font-size: 18px;
     color: #181818;
+    margin: 16px;
 }
 
 .button {
@@ -73,6 +87,6 @@ a {
 }
 
 .hero-image {
-    width: 500px;
+    width: 400px;
 
 }
