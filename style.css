@@ -55,7 +55,7 @@ a {
     color: #181818;
 }
 
-a:hover {
+li a:hover {
     color: #d43b3b;
 }
 
@@ -99,4 +99,42 @@ a:hover {
 .hero-image {
     width: 400px;
     margin-right: 150px;
+}
+
+.information {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.header {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 50px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 75px;
+
+}
+
+.sub {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 150px;
+
+}
+
+.sub img {
+    width: 150px;
+    border-radius: 15px;
+    border: 2px solid #181818;
+}
+
+.sub p {
+    text-align: center;
 }
