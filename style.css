@@ -1,6 +1,8 @@
 body {
 font-family:'Helvetica', 'Arial', sans-serif;
+margin: 0;
 }
+
 .hero {
     background-color: #fcf4cf;
     padding-bottom: 150px;
@@ -109,7 +111,7 @@ li a:hover {
 
 .header {
     font-size: 36px;
-    font-weight: bold;
+    font-weight: bolder;
     margin: 50px;
 }
 
@@ -137,4 +139,36 @@ li a:hover {
 
 .sub p {
     text-align: center;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d43b3b;
+}
+
+.whole-quote {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    width: 750px;
+    margin: 75px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.attribution {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.quote-text, .attribution {
+    color: #fcf4cf;
 }
